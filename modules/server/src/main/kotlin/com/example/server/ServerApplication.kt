@@ -1,11 +1,11 @@
-package com.example.multiexample
+package com.example.server
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class MultiExampleApplication
+class ServerApplication
 
 fun main(args: Array<String>) {
-    runApplication<MultiExampleApplication>(*args)
+    runApplication<ServerApplication>(*args)
 }
